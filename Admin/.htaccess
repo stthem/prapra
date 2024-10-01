@@ -1,0 +1,6 @@
+ErrorDocument 401 /SearchDekanat/rejection.htm
+AuthUserFile     "\home\localhost\www\SearchDekanat\.htpasswd"
+#AuthUserFile     "/home/www/diofant.com/public_html/SearchDekanat/htpass"
+AuthName         AdminArea
+AuthType    Basic
+require user AlexKold20
