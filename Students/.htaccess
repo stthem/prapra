@@ -1,0 +1,11 @@
+#Allow from all
+#AuthName "Username and password required"
+#AuthUserFile "/home/users/j/j55600682/domains/j55600682.myjino.ru/SearchDekanat/.htpasswd"
+#Require valid-user 
+#AuthType Basic
+ErrorDocument 401 /SearchDekanat/rejection.htm
+AuthUserFile     "\home\localhost\www\SearchDekanat\.htpasswd"
+#AuthUserFile     "/home/www/diofant.com/public_html/SearchDekanat/htpass"
+AuthName         ClientsArea
+AuthType    Basic
+require valid-user
